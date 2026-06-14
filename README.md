@@ -27,4 +27,7 @@ Since the source code was generated directly, you will need to initialize it as 
 5. Run `flutter run` to launch the app on your emulator or connected device.
 
 ## Screenshots
-*(Please add screenshots of the developed app tested on an emulator here before submission)*
+
+<img width="1080" height="2340" alt="Screenshot_1781415858" src="https://github.com/user-attachments/assets/20567243-a508-48d4-9ecb-6df3ce5e14c5" />
+<img width="1080" height="2340" alt="Screenshot_1781415869" src="https://github.com/user-attachments/assets/207de7e7-6f68-4edf-a87b-d3abcb0f7d7b" />
+
