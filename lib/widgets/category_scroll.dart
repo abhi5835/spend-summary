@@ -25,7 +25,7 @@ class CategoryScroll extends StatelessWidget {
           ),
         ),
         SizedBox(
-          height: 120,
+          height: 130,
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
             physics: const BouncingScrollPhysics(),
@@ -54,7 +54,8 @@ class _CategoryItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final currencyFormatter = NumberFormat.compactCurrency(symbol: '\$', decimalDigits: 0);
+    final currencyFormatter =
+        NumberFormat.compactCurrency(symbol: '\$', decimalDigits: 0);
 
     return Container(
       width: 100,
@@ -86,17 +87,17 @@ class _CategoryItem extends StatelessWidget {
           Text(
             category.name,
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              fontWeight: FontWeight.w600,
-              fontSize: 12,
-            ),
+                  fontWeight: FontWeight.w600,
+                  fontSize: 12,
+                ),
             overflow: TextOverflow.ellipsis,
           ),
           const SizedBox(height: 4),
           Text(
             currencyFormatter.format(totalAmount),
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
-              color: Theme.of(context).textTheme.bodyMedium?.color,
-            ),
+                  color: Theme.of(context).textTheme.bodyMedium?.color,
+                ),
           ),
         ],
       ),
